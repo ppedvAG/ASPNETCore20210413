@@ -2,30 +2,33 @@
 
 Tag 1:
 
-- [ ] Dependency Injections & Seperation of Concern
-	- [ ]	Grundlagen
-	- [ ]	Konfigurationen
-	- [ ]	Logging
-	- [ ]	Live Reload
+- [x] Dependency Injections & Seperation of Concern
+	- [x]	Grundlagen (1Stunde)
+	- [x]	Konfigurationen (45 Min)
+	- [x]	Logging (30 Min) 
+	- [x]	Live Reload (30 Min) 
 
-- [ ] Vorstellung der Präsentationschicht Razor Pages / MVC
-- [ ] Razor Syntax
-- [ ] TagHelpers 
+- [x] Vorstellung der Präsentationschicht Razor Pages / MVC
+- [x] Razor Syntax
+- [x] TagHelpers 
 
 Tag 2:
 - [ ] Präsentationschicht 
-- [ ] Partial View
-- [ ] Component View
-- [ ] Formulare
-- [ ] FileUpload
-- [ ] Middleware -> Imagegen
-- [ ] EF Core in Verbindung mit ASP.NET Core
+- [ ] Formulare (1 Std)
+- [ ] Partial View (45 Min)
+- [ ] Component View (45 Min) 
+- [ ] FileUpload + Middleware -> Imagegen (20 Min)
+- [ ] EF Core in Verbindung mit ASP.NET Core (3-4 Stunde)
 
 Tag 3:
-- [ ] State Management
-- [ ] Routing 
-- [ ] Filters
-- [ ] Localization
-- [ ] WebAPI Überblick + DemoApp mit ASP.NET Core
+- [ ] WebAPI Überblick + OpenAPI + DemoApp mit ASP.NET Core (Ef Core) (Vormittag )
+- [ ] State Management (30-45 Min)
+- [ ] Routing ( 20 Min)
+- [ ] Filters (20 Min)
+- [ ] Localization (1 Stunde)
+- [ ] Wenn offen ist (WebAPI + EF Core) - Freie offene Gedankenrunde (Rest der Zeit)
+
+
+
 
 

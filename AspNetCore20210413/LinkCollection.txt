@@ -1,0 +1,8 @@
+Serilog:
+
+Configurations -> https://github.com/serilog/serilog/wiki/Configuration-Basics
+
+LiveReload -> https://github.com/RickStrahl/Westwind.AspnetCore.LiveReload + Install Package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (Ist in der Anleitung nicht enthalten)
+
+Aktuelle Entwicklungen (.NET 6) -> https://themesof.net/
+

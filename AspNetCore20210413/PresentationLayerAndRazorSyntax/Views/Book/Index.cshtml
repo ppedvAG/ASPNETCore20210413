@@ -1,0 +1,172 @@
+﻿@model IEnumerable<Book>
+
+
+
+@using  DependencySampleLib.GoodSample;
+@inject ICar MockCar;
+
+<h1>Zeige den ersten Datensatz der Liste</h1>
+
+
+@Model.First().Id;
+<br />
+@Model.First().Title;
+<br />
+@Model.First().Descripton;
+<br />
+@Model.First().Autor;
+<br />
+
+
+@foreach (Book currentBook in Model)
+{
+    <p>ID: @currentBook.Id</p>
+    <p>Titel: @currentBook.Title</p>
+    <p>Beschreibung: @currentBook.Descripton</p>
+    <p>Autor: @currentBook.Autor</p>
+
+    if (currentBook.Autor == "Steven King")
+    {
+        <p> Bitte eine FSK16 Prüfung </p>
+    }
+
+    <hr />
+}
+
+
+@if (DateTime.IsLeapYear(2016))
+{
+    int abc = 123;
+
+    abc = 456;
+
+    <p>@abc</p>
+
+    <p>Ist ein schaltjahr</p>
+}
+else
+{
+    <p>ist kein schaltjahr</p>
+}
+
+<div style='@(Model.First().Id == 1 ? "background-color:yellow":"background-color:orange")'>Car-Color</div>
+
+
+
+//lokaler C#-Block
+@{
+    void RenderName(string name)
+    {
+        <p>Name: <strong>@name</strong></p>
+    }
+
+    RenderName("Mahatma Gandhi");
+    RenderName("Martin Luther King, Jr.");
+
+    int value = 1;
+}
+
+@switch (value)
+{
+    case 1:
+        <p>The value is 1!</p>
+        RenderName("Haribo");
+        break;
+    case 1337:
+        <p>Your number is 1337!</p>
+        break;
+    default:
+        <p>Your number wasn't 1 or 1337.</p>
+        break;
+}
+
+@*@RenderName("Malibu")*@
+
+
+@using (Html.BeginForm())
+{
+    <div>
+        Email: <input type="email" id="Email" value="">
+        <button>Register</button>
+    </div>
+}
+
+
+@MockCar.Brandt
+<br />
+@MockCar.Type
+<br />
+@MockCar.ConstructYear
+
+@try
+{
+
+}
+catch (Exception ex)
+{
+
+}
+finally
+{
+
+}
+
+@*@lock (obj)
+    {
+        // Ein Thread darf hier rein, die "anderen" müssen bei "lock" warten
+    }*@
+
+
+@section Scripts
+{
+    <script>
+        $('h1').text('Hallo liebe Teilnehmer');
+    </script>
+}
+
+
+
+@*@Html.DisplayNameFor + @Html.DisplayFor sind HTML-Helper   -> https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.html.displaynameextensions.displaynamefor?view=aspnet-mvc-5.2*@
+
+
+
+<table class="table">
+    <thead>
+        <!-- Spalten (Columns) werden definiert -->
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripton)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripton)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Autor)
+                </td>
+                <td>
+                    <!-- ASP.NET Core ASP Tag-Helper -->
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
