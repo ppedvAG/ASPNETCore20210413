@@ -17,7 +17,7 @@ namespace OverviewAndDependencyInjectionsSample
 
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration) //Ab hier ist die AppSettings.json bekannt. 
         {
             Configuration = configuration;
         }
@@ -66,7 +66,9 @@ namespace OverviewAndDependencyInjectionsSample
         {
             if (env.IsDevelopment())
             {
+                //Entwickler- oder Analysetools
                 app.UseDeveloperExceptionPage(); //Logging muss zuerst erfolgen. 
+                app.UseLiveReload(); // UseLiveReload
             }
             else
             {
@@ -74,12 +76,11 @@ namespace OverviewAndDependencyInjectionsSample
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            //Allgemein
             app.UseHttpsRedirection();
-            app.UseLiveReload(); // UseLiveReload 
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthorization();
 
             //Eigene Logiken (Custom Middleware) werden hier eingebunden.

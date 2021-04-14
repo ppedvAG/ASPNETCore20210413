@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PresentationLayerAndRazorSyntax.Models
 {
-    public class Book
+    public class Book //Repräsentier z.b eine Tabelle
     {
         public int Id { get; set; }
         public string Title { get; set; }

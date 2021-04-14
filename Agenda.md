@@ -14,11 +14,12 @@ Tag 1:
 
 Tag 2:
 - [ ] Präsentationschicht 
+- [o] EF Core in Verbindung mit ASP.NET Core (3-4 Stunde)
 - [ ] Formulare (1 Std)
 - [ ] Partial View (45 Min)
 - [ ] Component View (45 Min) 
 - [ ] FileUpload + Middleware -> Imagegen (20 Min)
-- [ ] EF Core in Verbindung mit ASP.NET Core (3-4 Stunde)
+- [ ] 
 
 Tag 3:
 - [ ] WebAPI Überblick + OpenAPI + DemoApp mit ASP.NET Core (Ef Core) (Vormittag )

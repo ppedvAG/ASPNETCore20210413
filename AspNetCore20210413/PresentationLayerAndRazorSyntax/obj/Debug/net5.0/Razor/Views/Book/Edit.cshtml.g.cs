@@ -27,7 +27,7 @@ using PresentationLayerAndRazorSyntax.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8976ee806691153d5a29335ac66e0618bea694c", @"/Views/Book/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a4722fec60728d50312d6ca7f170de0ba37c33bb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"82d67a363e16b9b400fc02cf00a3af05035008e7", @"/Views/_ViewImports.cshtml")]
     public class Views_Book_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

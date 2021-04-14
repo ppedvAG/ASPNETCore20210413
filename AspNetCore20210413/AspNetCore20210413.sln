@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul001_DI", "Modul001_DI", "{FD6C86F9-6910-4B39-8504-C90615B314B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverviewAndDependencyInjectionsSample", "OverviewAndDependencyInjectionsSample\OverviewAndDependencyInjectionsSample.csproj", "{714CA15C-9262-48CF-94C0-99A294A25DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverviewAndDependencyInjectionsSample", "OverviewAndDependencyInjectionsSample\OverviewAndDependencyInjectionsSample.csproj", "{714CA15C-9262-48CF-94C0-99A294A25DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencySampleLib", "DependencySampleLib\DependencySampleLib.csproj", "{58D2F7C9-14A1-4EF0-ACC3-20C1CE0746B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencySampleLib", "DependencySampleLib\DependencySampleLib.csproj", "{58D2F7C9-14A1-4EF0-ACC3-20C1CE0746B1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIScopeVsTransientVsSingletonSample", "DIScopeVsTransientVsSingletonSample\DIScopeVsTransientVsSingletonSample.csproj", "{4EC3B7A0-F584-4CBF-B9AB-5B6EE8422C26}"
 EndProject
@@ -21,7 +21,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceCollectionANDService
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul002", "Modul002", "{4D7D5B83-683A-4A82-B8DA-6FF46BD36CC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayerAndRazorSyntax", "PresentationLayerAndRazorSyntax\PresentationLayerAndRazorSyntax.csproj", "{D9644101-04FA-4F54-8702-1BBB00763334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresentationLayerAndRazorSyntax", "PresentationLayerAndRazorSyntax\PresentationLayerAndRazorSyntax.csproj", "{D9644101-04FA-4F54-8702-1BBB00763334}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul003", "Modul003", "{8E594776-3E35-4288-9944-08DDA44DB4F1}"
+	ProjectSection(SolutionItems) = preProject
+		Formulare.txt = Formulare.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul004", "Modul004", "{8A3D92F4-F0B3-439E-9563-359F8F4B96F1}"
+	ProjectSection(SolutionItems) = preProject
+		PartialViewsAndViewComponents.txt = PartialViewsAndViewComponents.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul005", "Modul005", "{8AFED9E0-1835-4552-9E35-7C580BDC0BAC}"
+	ProjectSection(SolutionItems) = preProject
+		MiddlewareAndFileUploadAndGallery.txt = MiddlewareAndFileUploadAndGallery.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul006", "Modul006", "{5E8C4C08-748F-41C9-B433-0A8489DA66D0}"
+	ProjectSection(SolutionItems) = preProject
+		EFCore.txt = EFCore.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWithEFCore", "MVCWithEFCore\MVCWithEFCore.csproj", "{4866B2D3-05EC-4D0C-BD28-552ADF0177CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaffoldingSampleCRUD", "ScaffoldingSampleCRUD\ScaffoldingSampleCRUD.csproj", "{F1698812-66B8-4B51-A2C6-8E2E5E1D1260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialViewAndViewComponentsSample", "PartialViewAndViewComponentsSample\PartialViewAndViewComponentsSample.csproj", "{A4CA4971-1ED2-49A8-88E5-C3A28947988B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +75,18 @@ Global
 		{D9644101-04FA-4F54-8702-1BBB00763334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9644101-04FA-4F54-8702-1BBB00763334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9644101-04FA-4F54-8702-1BBB00763334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4866B2D3-05EC-4D0C-BD28-552ADF0177CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4866B2D3-05EC-4D0C-BD28-552ADF0177CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4866B2D3-05EC-4D0C-BD28-552ADF0177CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4866B2D3-05EC-4D0C-BD28-552ADF0177CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1698812-66B8-4B51-A2C6-8E2E5E1D1260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1698812-66B8-4B51-A2C6-8E2E5E1D1260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1698812-66B8-4B51-A2C6-8E2E5E1D1260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1698812-66B8-4B51-A2C6-8E2E5E1D1260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CA4971-1ED2-49A8-88E5-C3A28947988B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CA4971-1ED2-49A8-88E5-C3A28947988B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CA4971-1ED2-49A8-88E5-C3A28947988B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CA4971-1ED2-49A8-88E5-C3A28947988B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +97,9 @@ Global
 		{4EC3B7A0-F584-4CBF-B9AB-5B6EE8422C26} = {FD6C86F9-6910-4B39-8504-C90615B314B6}
 		{956DB032-2601-4E92-8EC8-85D8B04A6536} = {FD6C86F9-6910-4B39-8504-C90615B314B6}
 		{D9644101-04FA-4F54-8702-1BBB00763334} = {4D7D5B83-683A-4A82-B8DA-6FF46BD36CC6}
+		{4866B2D3-05EC-4D0C-BD28-552ADF0177CC} = {5E8C4C08-748F-41C9-B433-0A8489DA66D0}
+		{F1698812-66B8-4B51-A2C6-8E2E5E1D1260} = {5E8C4C08-748F-41C9-B433-0A8489DA66D0}
+		{A4CA4971-1ED2-49A8-88E5-C3A28947988B} = {8A3D92F4-F0B3-439E-9563-359F8F4B96F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {707E6544-47CE-4149-BF2D-ABB876379F7E}

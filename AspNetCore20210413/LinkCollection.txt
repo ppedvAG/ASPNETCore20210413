@@ -6,3 +6,20 @@ LiveReload -> https://github.com/RickStrahl/Westwind.AspnetCore.LiveReload + Ins
 
 Aktuelle Entwicklungen (.NET 6) -> https://themesof.net/
 
+
+CodeMaze (WebAPI -> Architekture & Features)
+- https://code-maze.com/hateoas-aspnet-core-web-api/
+
+Linq 101 Samples:
+Offline Version (GitHug Repository) -> https://github.com/dotnet/try-samples/tree/main/101-linq-samples
+
+Online Version 
+
+Offene Fragen:
+
+Deployment einer neuen Version auf IIS -> Kunde soll nicht die alte gecachte Version sehen, sonder die aktuelle.
+Gibt es eine Alternativ zu STRG + F5? 
+
+DataAnnotations->Phone -> In wie weit wird validiert
+
+
