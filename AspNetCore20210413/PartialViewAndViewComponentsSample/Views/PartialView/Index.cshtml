@@ -10,22 +10,31 @@
     <p>@currentAnimal.Name</p>
 }
 
-<input id="btnShowMore" type="button" />
+<input id="btnShowMore" type="button"  />
 
 <div id="OptionaleView">
     <partial name="_HumunsPartialView" />
 </div>
 
 
+<div id="abc">
+    @foreach (Humans currentHumans in Model.AllHumans)
+    {
+        <p>@currentHumans.Id</p>
+        <p>@currentHumans.Name</p>
+        <p>@currentHumans.Birthday</p>
+    }
+</div>
+
 @section scripts {
     <script>
         $(document).ready(function () {
-            $("#OptionaleView").hide();
+            $("#abc").hide();
         });
 
 
         $('#btnShowMore').on('click', function () {
-            $('#OptionaleView').show();
+            $('#abc').show();
         });
     </script>
 }

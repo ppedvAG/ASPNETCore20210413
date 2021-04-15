@@ -1,0 +1,5 @@
+Agenda: 
+
+- State Management
+- Routing
+- Localization

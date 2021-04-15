@@ -15,10 +15,10 @@ Tag 1:
 Tag 2:
 - [ ] Präsentationschicht 
 - [o] EF Core in Verbindung mit ASP.NET Core (3-4 Stunde)
-- [ ] Formulare (1 Std)
-- [ ] Partial View (45 Min)
-- [ ] Component View (45 Min) 
-- [ ] FileUpload + Middleware -> Imagegen (20 Min)
+- [o] Formulare (1 Std)
+- [x] Partial View (45 Min)
+- [ ] Component View (45 Min) in Verbimdung mit Localization (wird in Tag 3 erörtert)
+- [ ] FileUpload + Middleware -> Imagegen (20 Min) (wird nur angeschnitten)
 - [ ] 
 
 Tag 3:
@@ -26,7 +26,7 @@ Tag 3:
 - [ ] State Management (30-45 Min)
 - [ ] Routing ( 20 Min)
 - [ ] Filters (20 Min)
-- [ ] Localization (1 Stunde)
+- [ ] Localization (1 Stunde) + ComponentView
 - [ ] Wenn offen ist (WebAPI + EF Core) - Freie offene Gedankenrunde (Rest der Zeit)
 
 

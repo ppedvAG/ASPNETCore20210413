@@ -10,6 +10,11 @@ Aktuelle Entwicklungen (.NET 6) -> https://themesof.net/
 CodeMaze (WebAPI -> Architekture & Features)
 - https://code-maze.com/hateoas-aspnet-core-web-api/
 
+
+Cultures->Geldbeträge
+
+https://docs.microsoft.com/de-de/dotnet/standard/base-types/standard-numeric-format-strings#the-fixed-point-f-format-specifier
+
 Linq 101 Samples:
 Offline Version (GitHug Repository) -> https://github.com/dotnet/try-samples/tree/main/101-linq-samples
 
